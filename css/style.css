@@ -1,10 +1,39 @@
+/* Aplica un color de fondo a toda la página */
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    color: #222;
+    background-color: #000;
+    /* negro puro */
+    color: #fff;
+    /* texto en blanco */
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
 }
+
+
+
+/* ../css/style.css */
+img {
+    width: 200px;
+    /* tamaño fijo más pequeño */
+    height: auto;
+    /* mantiene proporción */
+    display: block;
+    /* para controlar posición */
+    margin: 20px 0 20px 20px;
+    /* margen: arriba, derecha, abajo, izquierda */
+}
+
+
+body {
+    background-color: #000;
+    /* negro puro */
+    color: #fff;
+    /* texto en blanco */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
 
 header {
     background: #222;
